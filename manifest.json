@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Check-Word-Count-By-Bhishu",
+    "description": "Here's a word counting extension to change the way you browse. Made by Bhishu from PCTips.com.",
+    "version": "1.0",
+    "icons": {
+      "128": "firsticon.png",
+      "48": "secondicon.png",
+      "16": "thirdicon.png"
+    },
+  
+    "background": {
+      "scripts": ["jsFile.js"],
+      "persistent": false
+    },
+  
+    "permissions": [
+      "contextMenus"
+    ]
+  }
+  
